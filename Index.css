@@ -11,4 +11,24 @@
     src:url(Fonts/CookieRunFont_TTF/CookieRun_Bold.ttf);
 }
 
+body{
+    background-color: #fef9ef;
+}
+
+.container {
+display: grid;
+grid-template-columns: auto auto auto;
+background-color: #fef9ef;
+padding :10 px;
+}
+
+
+.container div{
+padding: 10px;
+background-color: #fef9ef;
+text-align :center;
+font-size: 25px;
+border:1px solid #011627;
+font-family: CRK_REG;
+}
 
