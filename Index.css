@@ -1,34 +1,101 @@
 
-/*fonts*/
+/*web fonts */
 
-@font-face{
-    font-family:CRK_REG;
-    src:url(Fonts/CookieRunFont_TTF/CookieRun_Regular.ttf);
-}
+    @font-face{
+        font-family:CRK_REG;
+        src:url(Fonts/CookieRunFont_TTF/CookieRun_Regular.ttf);
+    }
 
-@font-face{
-    font-family:CRK_BOL;
-    src:url(Fonts/CookieRunFont_TTF/CookieRun_Bold.ttf);
-}
+    @font-face{
+        font-family:CRK_BOL;
+        src:url(Fonts/CookieRunFont_TTF/CookieRun_Bold.ttf);
+    }
 
-body{
+/*body*/
+    body{
+        background-color: #fef9ef;
+    }
+
+/*header*/
+    header {
+    display:flex;
+    justify-content: center;
+    font-family: CRK_BOL;
+    border:2px solid #011627;
+    margin: 30px 50px;
+    }
+
+/*nav*/
+    .nav {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(206, 206, 230);
+        overflow:hidden;
+        font-family: CRK_REG;
+        text-decoration: none;
+    }
+
+    .nav a{
+        float:left;
+        background-color: antiquewhite;
+      
+        color:#011627;
+        text-align: center;
+        padding:10px
+        
+    }
+    /*nav anim*/
+      .nav a:hover{
+       background-color: aquamarine;
+    }
+  
+      .nav a.active{
+       background-color: rgb(255, 127, 234);
+    }
+
+
+/*grid*/
+    .container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    background-color: #f8f0e5;
+    padding: 70 px;
+    gap:10px;
+    margin:0 100px; /* 0 at start means no top or bottom*/
+    }
+
+
+    .container div{
+    padding: 10px;
     background-color: #fef9ef;
-}
+    text-align :center;
+    font-size: 25px;
+    border:3px solid #011627;
+    font-family: CRK_REG;
+    text-align: center;
+    }
 
-.container {
-display: grid;
-grid-template-columns: auto auto auto;
-background-color: #fef9ef;
-padding :10 px;
-}
+    .box_1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 50 ;
+    }
 
+    .box_2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:1;
+    }
 
-.container div{
-padding: 10px;
-background-color: #fef9ef;
-text-align :center;
-font-size: 25px;
-border:1px solid #011627;
-font-family: CRK_REG;
-}
+    .box_3{
+    gap:10px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end:30;
+    }
+
 
