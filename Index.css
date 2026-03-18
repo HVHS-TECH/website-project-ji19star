@@ -26,31 +26,40 @@
     }
 
 /*nav*/
-    .nav {
+    
+.nav {
         display: flex;
-        justify-content: center;
-        background-color: rgb(206, 206, 230);
+       justify-content: center;
+        background-color: #dfaf87;
         overflow:hidden;
         font-family: CRK_REG;
         text-decoration: none;
+        margin: 10px 60px;
     }
 
     .nav a{
         float:left;
-        background-color: antiquewhite;
+        background-color: rgb(247, 169, 67);
         color:#011627;
         text-align: center;
         padding:10px
         
-        
     }
     /*nav anim*/
       .nav a:hover{
-       background-color: aquamarine;
+       background-color: rgb(255, 221, 198);
     }
-  
-      .nav a.active{
-       background-color: rgb(255, 127, 234);
+
+/*bg elements*/
+    .bg{
+        display:flex;
+        justify-content:right ;
+        color:blue;
+        background-color: #dfaf87;
+        margin-left: 1750px;
+        background-image: url('Images/bread_T.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
 
@@ -95,7 +104,7 @@
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
-    grid-row-end:30;
+    grid-row-end:45;
     }
 
 
