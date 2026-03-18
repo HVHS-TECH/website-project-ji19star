@@ -17,12 +17,19 @@
     }
 
 /*header*/
-    header {
+    .pg_tlt {
     display:flex;
     justify-content: center;
     font-family: CRK_BOL;
     border:2px solid #011627;
     margin: 30px 50px;
+    }
+
+    .logo{
+        display: flex;
+        position: absolute;
+        justify-content: left;
+        size:20px;
     }
 
 /*nav*/
@@ -34,7 +41,7 @@
         overflow:hidden;
         font-family: CRK_REG;
         text-decoration: none;
-        margin: 10px 60px;
+        margin: 20px 350px;
     }
 
     .nav a{
