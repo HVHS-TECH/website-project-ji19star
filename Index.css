@@ -26,8 +26,10 @@
     }
 
     .logo{
+        float:left;
         display: flex;
-        position: absolute;
+       width:auto ;
+       height: 150px; ;
         justify-content: left;
         size:20px;
     }
@@ -61,8 +63,6 @@
     .bg{
         display:flex;
         justify-content:right ;
-        color:blue;
-        background-color: #dfaf87;
         margin-left: 1750px;
         background-image: url('Images/bread_T.png');
         background-repeat: no-repeat;

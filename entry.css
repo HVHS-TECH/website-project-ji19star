@@ -1,0 +1,30 @@
+
+/*web fonts */
+
+    @font-face{
+        font-family:CRK_REG;
+        src:url(Fonts/CookieRunFont_TTF/CookieRun_Regular.ttf);
+    }
+
+    @font-face{
+        font-family:CRK_BOL;
+        src:url(Fonts/CookieRunFont_TTF/CookieRun_Bold.ttf);
+    }
+
+    
+/*body*/
+    body{
+        background-color: #fef9ef;
+    }
+
+/*header*/
+    .pg_tlt {
+    display:flex;
+    justify-content: center;
+    font-family: CRK_BOL;
+    border:2px solid #011627;
+    margin: 30px 50px;
+    }
+
+/*nav*/
+    

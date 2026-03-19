@@ -4,23 +4,37 @@
 
     <head>
         <title>How To Be Bread</title>
-        
         <link rel="stylesheet" href="index.css">
         
     </head>
 
     <body>
+
+<!--Scripts-->
+    <script>
+         //nom audio
+            function play() {
+                var audio= new audio('Audio/nom.mp3');
+                audio.play();
+            }
+    </script>
+
 <!--header-->
-       
+
         <header>
-             
+            <button onclick="play()" class="button">
+               PLEASEWORKIBEGOFYOU
+            </button>
+        
+             <div class="logo"  >
+                  <img src="Images/bread_T.png" alt="logo_1">  
+             </div>   
+
              <div class="pg_tlt">
                    <h1>How To Be Bread</h1> 
              </div>
 
-        <div class="logo">
-            <img src="Images/bread_T.png" alt="logo_1">
-        </div>
+        
 
         </header>
 <!--nav bar-->
@@ -43,18 +57,19 @@
         </main>
 <!--footer-->
         <footer>
-
+    <!--Bg elements-->
+            <div class="bg">
+                 <p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+            </div>
         </footer>
 
-<!--Bg elements-->
-        <div class="bg">
-            <p>
-                <br>
-                <br>
-                <br>
-                <br>
-            </p>
-        </div>
+
+       
 
       
     </body>
