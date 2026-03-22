@@ -18,13 +18,13 @@
     }
 
 /*header*/
-    .pg_tlt {
+    .entry {
     display:flex;
     justify-content: center;
+    float:center;
     font-family: CRK_BOL;
-    border:2px solid #011627;
+    color: #011627;
+    text-decoration: none;
     margin: 30px 50px;
+    font-size: 50px;
     }
-
-/*nav*/
-    
