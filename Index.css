@@ -10,6 +10,8 @@
         font-family:CRK_BOL;
         src:url(Fonts/CookieRunFont_TTF/CookieRun_Bold.ttf);
     }
+/* Responsive*/ 
+      
 
 /*body*/
     body{
@@ -22,41 +24,49 @@
     justify-content: center;
     font-family: CRK_BOL;
     border:2px solid #011627;
+    border-radius: 30px;
     margin: 30px 50px;
     }
 
     .logo{
-        float:left;
-        display: flex;
+       float:left;
+       display: flex;
        width:auto ;
        height: 150px; ;
-        justify-content: left;
-        size:20px;
+       justify-content: left;
+       size:20px;
     }
 
 /*nav*/
     
-.nav {
+    .nav ul{
         display: flex;
-       justify-content: center;
-        background-color: #dfaf87;
-        overflow:hidden;
+        justify-content: center;
+        background-color: #ecd4bd;
+        overflow: hidden;
         font-family: CRK_REG;
-        text-decoration: none;
         margin: 20px 350px;
+        border: solid #011627;
+        outline:#5797a7 solid 5px;
+        border-radius: 30px;
     }
 
-    .nav a{
-        float:left;
+    .nav li a{
         background-color: rgb(247, 169, 67);
+        margin: 10px 20px;
+        border: solid #011627;
+        border-radius: 30px;
         color:#011627;
         text-align: center;
-        padding:10px
-        
+        padding:10px;
+        transition: transform 0.3s ease-in-out;
     }
+
     /*nav anim*/
-      .nav a:hover{
-       background-color: rgb(255, 221, 198);
+      .nav li a:hover{
+      background-color: rgb(255, 221, 198);
+      transform: scale(1.1);
+       
     }
 
 /*bg elements*/
