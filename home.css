@@ -15,17 +15,20 @@
 
 /*body*/
     body{
-        background-color: #fef9ef;
+        background-color: #f7e9d5;
     }
 
 /*header*/
     .pg_tlt {
     display:flex;
     justify-content: center;
+    background-color: #fef9ef;
+    color: #011627;
     font-family: CRK_BOL;
     border:2px solid #011627;
     border-radius: 30px;
     margin: 30px 50px;
+    outline:#5797a7 solid 4px;
     }
 
     .logo{
@@ -42,24 +45,31 @@
     .nav ul{
         display: flex;
         justify-content: center;
-        background-color: #ecd4bd;
+        background-color: #fef9ef;
         overflow: hidden;
         font-family: CRK_REG;
         margin: 20px 350px;
         border: solid #011627;
         outline:#5797a7 solid 5px;
         border-radius: 30px;
+        list-style-type: none;
+       
     }
 
     .nav li a{
-        background-color: rgb(247, 169, 67);
-        margin: 10px 20px;
+        display: flex;
+        justify-content: center;
+        float:center;
+        background-color: #F18f01;
+        margin: 10px 60px;
         border: solid #011627;
         border-radius: 30px;
+        text-decoration: none;
         color:#011627;
         text-align: center;
         padding:10px;
-        transition: transform 0.3s ease-in-out;
+        transform: scale(1.13);
+        transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out;
     }
 
     /*nav anim*/
