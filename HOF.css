@@ -113,6 +113,15 @@
     outline:#5797a7 solid 3px;
     }
 
+
+    .container img{
+    display: flex;
+    justify-content: left;
+    margin: 0 20%;
+    max-width: 60%;
+    height: auto;
+    }
+
     .box_1{
     grid-column-start: 1;
     grid-column-end: 2;
