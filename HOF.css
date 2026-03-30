@@ -88,7 +88,10 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
+/*HOF bred list*/
+    .container div ul{
+        text-align: left;
+    }
 
 /*grid*/
     .container {
@@ -104,7 +107,6 @@
 
     .container div{
     padding: 10px;
-  
     background-color: #fef9ef;
     text-align :center;
     font-size: 25px;
