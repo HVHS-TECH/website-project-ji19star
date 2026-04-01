@@ -120,9 +120,12 @@
     .container img{
     display: flex;
     justify-content: left;
-    margin: 0 20%;
+    margin: 20px 20%;
     max-width: 60%;
     height: auto;
+    border:3px solid #487599;
+     outline:#F18f01 solid 6px;
+
     }
 
     .box_1{
