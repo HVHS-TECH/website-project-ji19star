@@ -116,7 +116,7 @@
     outline:#5797a7 solid 3px;
     }
 
-
+/*change image ratiosss to match later*/
     .container img{
     display: flex;
     justify-content: left;
@@ -124,10 +124,10 @@
     max-width: 60%;
     height: auto;
     border:3px solid #487599;
-     outline:#F18f01 solid 6px;
+    outline:#F18f01 solid 6px;
 
     }
-
+ 
     .box_1{
     grid-column-start: 1;
     grid-column-end: 2;
