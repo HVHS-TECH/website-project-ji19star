@@ -161,6 +161,7 @@
     }
 
     .box_1{
+    
     grid-column-start: 0;
     grid-column-end: 1;
     grid-row-start: 1;
